@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>模擬問題自動作成プロンプト｜生成AIパスポート学習ツール</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: "Segoe UI", "Hiragino Sans", sans-serif; }
+    body { padding: 20px; max-width: 900px; margin: 0 auto; background: #e6f2fc; }
+    h2 { text-align: center; margin: 10px 0 30px; color: #1e3a5f; font-size: 24px; font-weight: 600; letter-spacing: 0.5px; }
+
+    .usage-note {
+      background: #fff;
+      border-left: 4px solid #73b6e8;
+      padding: 16px;
+      margin-bottom: 30px;
+      border-radius: 8px;
+      color: #1e3a5f;
+      line-height: 1.7;
+      font-size: 15px;
+    }
+
+    .chapter-block {
+      background: #fff;
+      padding: 24px;
+      margin-bottom: 20px;
+      border-radius: 16px;
+      box-shadow: 0 1px 4px rgba(30,58,95,0.04), 0 4px 12px rgba(30,58,95,0.06);
+      transition: transform 0.2s;
+    }
+    .chapter-block:hover { transform: translateY(-2px); }
+    .chapter-title {
+      font-size: 19px;
+      font-weight: 600;
+      color: #1e3a5f;
+      margin-bottom: 16px;
+      padding-bottom: 6px;
+      border-bottom: 2px solid #cce4f9;
+    }
+    .button-row {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
+    }
+    .menu-btn {
+      display: block;
+      padding: 15px 12px;
+      font-size: 15px;
+      font-weight: 500;
+      border: 2px solid #73b6e8;
+      border-radius: 10px;
+      background: #b8e0f9;
+      color: #1e3a5f;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      transition: all 0.25s;
+      box-shadow: 0 2px 6px rgba(66,153,225,0.15);
+    }
+    .menu-btn:hover {
+      background: #9dd3f7;
+      border-color: #4fa8e0;
+      transform: translateY(-1px);
+      box-shadow: 0 4px 12px rgba(66,153,225,0.25);
+    }
+
+    @media (max-width: 600px) {
+      .button-row { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (max-width: 400px) {
+      .button-row { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <h2> 模擬問題自動作成プロンプト</h2>
+
+  <div class="usage-note">
+     <strong>使い方</strong><br>
+    1. 章のボタンをクリック<br>
+    2. 「プロンプトをコピーする」ボタンを押す<br>
+    3. AIアプリに貼り付けると自動で開始します
+  </div>
+
+  <!-- 1章 -->
+  <div class="chapter-block">
+    <div class="chapter-title">📖 生成AIパスポート　2027年度シラバス 1章</div>
+    <div class="button-row">
+      <a href="1章①.html" class="menu-btn">その①</a>
+      <a href="1章②.html" class="menu-btn">その②</a>
+      <span></span>
+    </div>
+  </div>
+
+  <!-- 2章 -->
+  <div class="chapter-block">
+    <div class="chapter-title">📖 生成AIパスポート　2027年度シラバス 2章</div>
+    <div class="button-row">
+      <a href="2章①.html" class="menu-btn">その①</a>
+      <a href="2章②.html" class="menu-btn">その②</a>
+      <span></span>
+    </div>
+  </div>
+
+  <!-- 3章 -->
+  <div class="chapter-block">
+    <div class="chapter-title">📖 生成AIパスポート　2027年度シラバス 3章</div>
+    <div class="button-row">
+      <a href="3章①.html" class="menu-btn">その①</a>
+      <a href="3章②.html" class="menu-btn">その②</a>
+      <span></span>
+    </div>
+  </div>
+
+  <!-- 4章 -->
+  <div class="chapter-block">
+    <div class="chapter-title">📖 生成AIパスポート　2027年度シラバス 4章</div>
+    <div class="button-row">
+      <a href="4章①.html" class="menu-btn">その①</a>
+      <a href="4章②.html" class="menu-btn">その②</a>
+      <a href="4章③.html" class="menu-btn">その③</a>
+    </div>
+  </div>
+
+  <!-- 5章 -->
+  <div class="chapter-block">
+    <div class="chapter-title">📖 生成AIパスポート　2027年度シラバス 5章</div>
+    <div class="button-row">
+      <a href="5章①.html" class="menu-btn">その①</a>
+      <a href="5章②.html" class="menu-btn">その②</a>
+      <span></span>
+    </div>
+  </div>
+
+</body>
+</html>
